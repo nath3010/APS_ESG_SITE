@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="css\stylesheet.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="javascript\myjava.js"></script>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success bg-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand  mb-0 h1" href="index.html">ESG Brasil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="esg.html">O que é ESG?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listaempresas.html">Ranking Empresas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR FINAL-->
+
+    <main class="container">
+        <div class="bg-light p-5 rounded">
+
+            <div class="h2 pb-2 mb-4 text-success border-bottom border-success">
+                Newsletter
+                <p class="fw-light fs-4">Assine nossa newsletter para receber conteúdo e notícias sobre ESG.</p>
+            </div>
+            <form class="row g-3">
+
+                <div class="col-md-12">
+                    <input type="email" class="form-control" id="emailid" placeholder="Email" aria-label="Email">
+                </div>
+
+                <div class="col-md-12">
+                    <input type="text" class="form-control" placeholder="Empresa" aria-label="Empresa">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Primeiro Nome" aria-label="Primeiro Nome">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Último Nome" aria-label="Último Nome">
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success" onclick=" EnviarNewsletter();"
+                        value="Enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">UNIP - APS© 2022</span>
+        </div>
+    </footer>
+    <!--FOOTER FINAL-->
+
+
+</body>
+
+</html>

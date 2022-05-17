@@ -1,0 +1,19 @@
+/* Show it is fixed to the top */
+body {
+    min-height:58.5rem;
+    padding-top: 8rem;
+  }
+  
+svg{
+    fill: #198754;
+}
+img {
+max-height: 600px;
+width: 1090px;
+min-width: 10%;
+min-height:10% ;
+
+
+
+}
+
